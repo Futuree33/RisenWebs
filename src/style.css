@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    color: #524cff;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+    scrollbar-width: none;
+}
+
+html, body, #app {
+    background: black;
+    color: white !important;
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+}
